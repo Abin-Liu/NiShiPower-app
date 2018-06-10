@@ -1,0 +1,92 @@
+-----------------------------------------------
+-- enUS.lua
+--
+-- Abin
+-- 2012-12-08
+-----------------------------------------------
+
+local _, addon = ...
+
+addon.L = {
+	["title"] = "NiShi Power",
+	["control action"] = "Main action control",
+	["Farmer Nishi"] = "Farmer Nishi",
+	["scroll bottom"] = "Bottom",
+	["youngling"] = "Youngling",
+	["fighter1"] = "Fighter 1",
+	["fighter2"] = "Fighter 2",
+	["tooltip youngling"] = "The young battle pet that you wish to level up, leveling sequence is from top to bottom.",
+	["tooltip fighter1"] = "Battle pet as fighter #1, it kills enemies #1-2 then dies on enemy #3 deliberately.",
+	["tooltip fighter2"] = "Battle pet as fighter #2, it kills both the enemy #3 and itself using ability |cffff0000Explode|r.",
+	["error already exists"] = "%s already exixts in queue %s.",
+	["error cannot battle"] = "%s is not a battle pet.",
+	["error level maxed"] = "%s is already at max level.",
+	["error level not maxed"] = "%s is not at max level.",
+	["error not fighter species"] = "%s species type is not qualified for being %s.",
+	["list prompt youngling"] = "Drag the younglings you wish to level-up and drop here.",
+	["list prompt fighter"] = "Drag the fighter pet and drop here. The species type must be one of the following:\n",
+	["log"] = "Log",
+	["tooltip log"] = "View recent action logs.",
+	["toggle frame"] = "Show/hide NiShiPower frame.",
+	["add to team"] = "Alt-click: Assign this pet to battle team.",
+	["error quest completed"] = "Quest already completed, process aborted.",
+
+	["tooltip list up"] = "Click: Move the selected pet up.",
+	["tooltip list up shift"] = "Shift-click: Move the selected pet to top.",
+	["tooltip list down"] = "Click: Move the selected pet down.",
+	["tooltip list down shift"] = "Shift-click: Move the selected pet to bottom.",
+	["tooltip list delete"] = "Click: Remove the selected pet.",
+
+	["tooltip log up"] = "Click: Scroll the log up.",
+	["tooltip log up shift"] = "Shift-click: Scroll the log to top.",
+	["tooltip log down"] = "Click: Scroll the log down.",
+	["tooltip log down shift"] = "Shift-click: Scroll the log to bottom.",
+	["tooltip log clear"] = "Click: Clear all log.",
+
+	["log manager activate"] = "Npc approaching, addon activated.",
+	["log manager deactivate"] = "Npc off the grid, addon deactivated.\n",
+	["log all states"] = "Clear all states.",
+	["log battle started"] = "Battle started.",
+	["log battle round"] = "Battle round %d.",
+	["log battle over"] = "Battle over.",
+	["log wait StartModuleTeam"] = "Waiting for team module...",
+	["log team module started"] = "Team module started.",
+	["log team choosing pets"] = "Choosing pets for new team.",
+	["log team heal"] = "Cannot form a team, try to heal pets.",
+	["log team form"] = "Forming a team.",
+	["log team choose abilities"] = "Choosing abilities for team pets.",
+	["log team ready"] = "Team formed successfully.",
+
+	["log team pet choosing ok"] = "Chosen %s \124T%s:0:0:0:0\124t%s.",
+	["log team pet choosing fail"] = "Cannot choose %s (%s).",
+	["log team fail error not configured"] = "Not configured",
+	["log team fail error health low"] = "Health below %d",
+	["log team fail error level maxed"] = "Level maxed",
+	["log team fail error level not maxed"] = "Level not maxed",
+	["log team fail error type mismatch"] = "Type mismatch",
+	["log team heal cooldown"] = "\124T%s:0:0:0:0\124t%s cooldown %d sec.",
+	["log team cast heal"] = "Cast \124T%s:0:0:0:0\124t%s.",
+	["log team pet list changed"] = "Pet list changed, restarting team module...",
+
+	["log wait StartModuleInteract"] = "Waiting for interact module...",
+	["log interact module started"] = "Interact module started.",
+	["log interact abandoning quest"] = "Abandoning quest.",
+	["log interact targeting npc"] = "Targeting npc.",
+	["log interact moving"] = "Moving towards npc (%d yards).",
+	["log interact distance ok"] = "Interact distance reached (%d yards).",
+	["log interact interacting"] = "Interacting with npc.",
+	["log interact accept quest"] = "Accepting quest.",
+	["log interact starting battle"] = "Starting battle.",
+	["log interact distance error"] = "Distance to npc too far, something's wrong, module stopped.",
+
+	["log battle using ability"] = "Using ability \124T%s:0:0:0:0\124t%s.",
+	["log battle change pet"] = "Changing pet \124T%s:0:0:0:0\124t%s.",
+	["log battle skip turn"] = "Skip turn.",
+	["log battle forfeit"] = "Battle lost, forfeit.",
+	["log battle health low"] = "Health low, heal.",
+	["log battle explode"] = "Explode now! (Expected damage %d)",
+	["log battle won"] = "Battle won.",
+	["log battle enormous damage coming"] = "Enormous damage coming!",
+	["log battle enemy invincible"] = "Enemy pet invulnerable this round.",
+	["log battle quest abandon failed"] = "Quest abandon failed, quit battle.",
+}

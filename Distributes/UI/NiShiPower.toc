@@ -1,0 +1,26 @@
+## Interface: 50100
+## Title: NiShiPower
+## Version: 1.08
+## Author: Abin
+## RequiredDeps: Blizzard_PetBattleUI, Blizzard_PetJournal
+## SavedVariables: NiShiPowerDB
+
+Includes\InterfaceOptionPage-1.0.lua
+Includes\VirtualScrollList-1.0.lua
+Includes\EmbedEvent-1.0.lua
+Includes\TabFrame-1.0.lua
+
+Locales\enUS.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+
+Core.lua
+
+Frames\MainFrame.lua
+Frames\PetList.lua
+Frames\EventLog.lua
+
+Modules\Manager.lua
+Modules\Team.lua
+Modules\Interact.lua
+Modules\Battle.lua
